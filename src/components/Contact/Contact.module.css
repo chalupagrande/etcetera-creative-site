@@ -1,0 +1,11 @@
+.contactForm {
+  max-width: 800px;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.successMessage {
+  color: green;
+}

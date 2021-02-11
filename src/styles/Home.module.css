@@ -1,0 +1,36 @@
+.contactButton {
+  color: #1eaedb;
+  font-weight: bold;
+  cursor: pointer;
+}
+.contactButton:hover {
+  color: #0c81a5;
+  border-color: #0c81a5 !important;
+}
+
+.contactButton:focus {
+  color: #0c81a5;
+  border-color: #0c81a5 !important;
+}
+
+.intro {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.home {
+  margin: 1rem;
+}
+
+.content {
+  margin-left: 2rem;
+}
+
+@media (min-width: 760px) {
+  .home {
+    position: absolute;
+    top: 15%;
+    margin-left: 11%;
+  }
+}
